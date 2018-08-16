@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+  <EditText
+      android:id="@+id/nametext"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:hint="@string/name_student"
+      android:textColor="#2196F3"
+      android:layout_marginBottom="16dp"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Q1"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/Q1A1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="finish()"
+            android:padding="9dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#1565C0"
+            />
+        <RadioButton
+            android:id="@+id/Q1A2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stop()"
+            android:padding="9dp"
+            android:textColor="#1565C0"
+            />
+
+        <RadioButton
+            android:id="@+id/Q1A3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="end()"
+            android:padding="9dp"
+            android:textColor="#1565C0"
+            />
+        <RadioButton
+            android:id="@+id/Q1A4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="kill()"
+            android:padding="9dp"
+            android:textColor="#1565C0"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Q2"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/Q2A1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/res/layout"
+            android:padding="9dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#1565C0"
+            />
+        <RadioButton
+            android:id="@+id/Q2A2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/src"
+            android:padding="9dp"
+            android:textColor="#1565C0"
+            />
+
+        <RadioButton
+            android:id="@+id/Q2A3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:text="/res"
+            android:textColor="#1565C0" />
+
+        <RadioButton
+            android:id="@+id/Q2A4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="9dp"
+            android:text="/app"
+            android:textColor="#1565C0" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Q3"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/Q3A1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Write Code"
+        android:textColor="#1565C0"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Q4"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
+    <LinearLayout
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <CheckBox
+            android:id="@+id/Q4A1"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:text="byte"
+            android:textColor="#1565C0"
+
+            />
+
+        <CheckBox
+            android:id="@+id/Q4A2"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="char"
+            android:textColor="#1565C0"
+
+            />
+
+        <CheckBox
+            android:id="@+id/Q4A3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="int"
+            android:textColor="#1565C0"
+
+            />
+
+        <CheckBox
+            android:id="@+id/Q4A4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="long "
+            android:textColor="#1565C0"
+
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Q5"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/Q5A1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#1565C0"
+            />
+        <RadioButton
+            android:id="@+id/Q5A2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:padding="15dp"
+            android:textColor="#1565C0"
+            />
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit answer"
+        android:textColor="#fff"
+        android:layout_marginLeft="100dp"
+        android:onClick="submitanswer"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answers"
+        android:layout_marginRight="20dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/numberscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#000"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:layout_marginRight="20dp"
+            android:textColor="#000"
+
+            />
+
+        <TextView
+            android:id="@+id/namestudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

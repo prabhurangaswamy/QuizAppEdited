@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="name_student">Enter Your Name Here !</string>
+
+    <string name="Q1">Q1 : How to kill an activity in Android?</string>
+    <string name="Q2">Q2 : Specify the Dir name where the XML files are stored ?</string>
+    <string name="Q3">Q3 : how to define variable called y and type int ?</string>
+    <string name="Q4">Q4 : Choose the correct variable(s) below?</string>
+    <string name="Q5">Q5 : Java keywords are written in lowercase as well as uppercase ?</string>
+
+
+</resources>
